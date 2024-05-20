@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-*{
-     font-family: "Poppins", sans-serif;
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     list-style: none;
-     scroll-behavior: smooth;
-     scroll-padding-top: 2rem;
-     text-decoration: none;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  text-decoration: none;
 }
 
 :root {
@@ -16,41 +16,37 @@
   --second-color: #1e3932;
 }
 
-
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-
-.nav-container{
-position: fixed;
-width: 100%;
-top: 0;
-right: 0;
-z-index: 1000;
-display: flex;
-align-items: center;
-justify-content: space-between;
-background: #fff;
- box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
- padding: 15px 10px;
- transition: 0.2s;
+.nav-container {
+  /*position: fixed;*/
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+  padding: 15px 10px;
+  transition: 0.2s;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-.logo img{
-    width: 40px;
+.logo img {
+  width: 40px;
 }
 
-.navbar{
-    display: flex;
-    
+.navbar {
+  display: flex;
 }
-
 
 .nav-link {
   font-size: 1rem;
@@ -64,3 +60,78 @@ background: #fff;
   color: #008148;
 }
 
+.hero-cont {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #ebdbc8;
+  gap: 1rem;
+}
+
+.hero-head {
+  flex: 1 1 17rem;
+}
+
+.hero-img {
+  flex: 1 1 17rem;
+}
+
+
+.hero-img img{
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%{
+    transform: translate(-11px, 0);
+  }
+  50%{
+    transform: translate(-0px, -11px);
+  }
+  100%{
+    transform: translate(-11px, 0);
+  }
+}
+
+
+.hero-head span{
+  color: #1e3932;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.hero-head h1{
+  font-size: 3.2rem;
+  font-weight: bolder;
+color: #008148;
+}
+
+.hero-head h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1e3932;
+  margin: 0.5rem 0 1.4rem;
+  text-transform: uppercase;
+}
+
+
+.btn{
+  padding: 7px 16px;
+  border: 2px solid #1e3932;
+  border-radius: 40px;
+color: #1e3932;
+font-weight: 500;
+}
+
+.btn:hover{
+  color: #fff;
+  background: #1e3932;
+}
+
+
+section{
+  padding: 50px 10%;
+}
