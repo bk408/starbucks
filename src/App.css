@@ -131,3 +131,29 @@ img {
 section {
   padding: 50px 10%;
 }
+
+
+
+
+
+.block-cont{
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.light{
+  background-color: white;
+  
+}
+
+.dark{
+  background-color: green;
+
+}
