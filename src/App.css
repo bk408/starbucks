@@ -78,38 +78,36 @@ img {
   flex: 1 1 17rem;
 }
 
-
-.hero-img img{
+.hero-img img {
   animation: animate 3s linear infinite;
 }
 
 @keyframes animate {
-  0%{
+  0% {
     transform: translate(-11px, 0);
   }
-  50%{
+  50% {
     transform: translate(-0px, -11px);
   }
-  100%{
+  100% {
     transform: translate(-11px, 0);
   }
 }
 
-
-.hero-head span{
+.hero-head span {
   color: #1e3932;
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 600;
 }
 
-.hero-head h1{
+.hero-head h1 {
   font-size: 3.2rem;
   font-weight: bolder;
-color: #008148;
+  color: #008148;
 }
 
-.hero-head h2{
+.hero-head h2 {
   font-size: 1.8rem;
   font-weight: 600;
   color: #1e3932;
@@ -117,21 +115,19 @@ color: #008148;
   text-transform: uppercase;
 }
 
-
-.btn{
+.btn {
   padding: 7px 16px;
   border: 2px solid #1e3932;
   border-radius: 40px;
-color: #1e3932;
-font-weight: 500;
+  color: #1e3932;
+  font-weight: 500;
 }
 
-.btn:hover{
+.btn:hover {
   color: #fff;
   background: #1e3932;
 }
 
-
-section{
+section {
   padding: 50px 10%;
 }
